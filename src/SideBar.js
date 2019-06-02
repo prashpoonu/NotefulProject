@@ -14,7 +14,7 @@ export default class SideBar extends Component {
         return (
             <section arial-label="folder-list" className="folderLst">
                 {folderData}
-                {/* <AddFolder/> */}
+                <AddFolder/>
             </section>
         );
     }
